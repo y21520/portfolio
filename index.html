@@ -65,6 +65,11 @@
         <p>電話番号</p>
         <a href="tel:080-9019-3983">080-9019-3983</a>
         <p>メールアドレス</p>
-        <a href="https://mail.google.com/mail/u/0/#inbox">y21520@iwate-it.ac.jp</a>
+
+        <form metod="post" name="form1" action="result.html">
+            氏名（必須）　　：<input type="text" placeholder="元良優作" name="input01" size="20"><br/>
+            メールアドレス（必須）：<input type="text" placeholder="y21520@iwate-it.ac.jp" name="input02" size="20"><br/>
+            <input type="submit" value="送信" onclick="return checkForm();">
+        </form>
     </footer>  
 </html>
